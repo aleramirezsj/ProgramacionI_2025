@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "WindowsForm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicacionWebASP.NET.Core", "AplicacionWebASP.NET.Core\AplicacionWebASP.NET.Core.csproj", "{0B5E94B8-3731-413E-BF52-14CF64FB067A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppWebAssembly", "BlazorAppWebAssembly\BlazorAppWebAssembly.csproj", "{F20E4679-796A-4CE9-93FA-FB4F6A9E1042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppNetMaui", "AppNetMaui\AppNetMaui.csproj", "{0F9E5AA1-54C4-43E3-9FE7-E1A13D5898CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,16 @@ Global
 		{0B5E94B8-3731-413E-BF52-14CF64FB067A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B5E94B8-3731-413E-BF52-14CF64FB067A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B5E94B8-3731-413E-BF52-14CF64FB067A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20E4679-796A-4CE9-93FA-FB4F6A9E1042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20E4679-796A-4CE9-93FA-FB4F6A9E1042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20E4679-796A-4CE9-93FA-FB4F6A9E1042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20E4679-796A-4CE9-93FA-FB4F6A9E1042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9E5AA1-54C4-43E3-9FE7-E1A13D5898CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9E5AA1-54C4-43E3-9FE7-E1A13D5898CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9E5AA1-54C4-43E3-9FE7-E1A13D5898CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0F9E5AA1-54C4-43E3-9FE7-E1A13D5898CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9E5AA1-54C4-43E3-9FE7-E1A13D5898CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9E5AA1-54C4-43E3-9FE7-E1A13D5898CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
