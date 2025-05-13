@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Consola.Class
+namespace Calcu.Class
 {
     public class Calculadora
     {
         //Declaración de campos o propiedades
-        private double resultado;
-        private string operacion;
+        protected double resultado;
+        protected string operacion;
         //método que se llama igual que la clase y que no tiene tipo de retorno
         //es el constructor de la clase
         //se ejecuta cuando se crea un objeto de la clase
