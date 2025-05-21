@@ -40,8 +40,9 @@
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "&button1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -50,8 +51,9 @@
             button2.Name = "button2";
             button2.Size = new Size(112, 34);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "b&utton2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -64,7 +66,7 @@
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // MenuPrincipalView
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -72,7 +74,7 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Name = "Form1";
+            Name = "MenuPrincipalView";
             Text = "Form1";
             ResumeLayout(false);
         }
